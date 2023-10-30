@@ -5,3 +5,12 @@ body {
     border: medium dotted #FFFFFF;
 	font-size; 15px;	
 }
+.topnavi
+{
+	text-align: center;
+	padding: 10px;
+		
+}
+a{
+	padding:10px;
+}
