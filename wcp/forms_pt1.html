@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Form Validation</title>
+<style></style>
+</head>
+	
+<body>
+<h2>1.) Add a box for Last Name to the form below.<br>
+  Be sure to add a Label and keep the formatting the same</h2>
+<form>
+  <label for="fname">First name:</label>
+  <input name="fname" type="text" id="fname">
+  <br>
+  <label for="lname">Last name:</label>
+  <input name="lname" type="text" id="lname">
+  <br>
+  <button>Submit</button>
+</form>
+<hr>
+<h2>2.)Create a form below with the following 2 text boxes: Email and Password<br>
+  Be sure to add Labels and a Submit button<br>
+  The Password should appear as *** when you type it in </h2>
+		<!--put the form here -->
+<form>
+	<label for="ename">Email Address:</label>
+	<input id="ename" type="email" name="ename">
+	<label for="pname">Password:</label>
+	<input id="pname" type="password" name="pname" >
+	<input type="submit">
+	</form>
+
+<hr>
+<h2>
+3) Add 2 more radio buttons for CSS and Javascript below.<br>
+You SHOULD use the same name for all 3 buttons
+</h2>
+	
+<form>
+  <p>What's your favorite programming language?</p>
+   
+  <input type="radio" id="html" name="fav_language" value="HTML">
+   
+  <label for="html">HTML</label>
+  <br>
+	<input type="radio" id="css" name="fav_language" value="CSS">
+   
+  <label for="css">CSS</label>
+  <br>
+	<input type="radio" id="javascript" name="fav_language" value="JAVASCRIPT">
+   
+  <label for="javascript">Javascript</label>
+  <br>
+   
+  <button>Submit</button>
+</form>
+<hr>
+<h2>4) Add 2 more checkboxes for "Car" and "Subway" <br>
+  Make sure that you use a DIFFERENT name for each checkbox</h2>
+<form>
+  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+  <label for="vehicle1"> I have a bike</label>
+  <br>
+	
+<input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+  <label for="vehicle2"> I have a car</label>
+  <br>
+	
+	<input type="checkbox" id="vehicle3" name="vehicle3" value="Subway">
+  <label for="vehicle3"> I take the subway</label>
+  <br>
+	
+  <button>Submit</button>
+</form>
+		
+	<h2>5) Create a Registration form which asks for the following:
+First Name, Last Name, Date of birth. Be sure to add both a "Submit" and "Reset" button. Make sure Reset works</h2>
+<h4>Registration Form</h4>
+	<form>
+	<label for="FirstName">First Name:</label>
+		<input name="FirstName" type="text" required="required" id="FirstName">
+		<br>
+		
+		<label for="LastName">Last Name:</label>
+		<input name="LastName" type="text" required="required" id="LastName">
+		<br>
+		
+		<label for="date"> Date of Birth:</label>
+		<input name="date" type="date" required="required" id="date">
+		<br>
+	
+		<input type="submit">
+		<input type="reset">
+	</form>
+	
+<h2>6) Create a Survey form which asks for the following:
+Full Name and favorite website. Be sure to use URL and mark both as "required". Add a submit button and check the boxes are required.</h2>
+<h4>Fav Site Survey Form</h4>
+	<!--Add the form below-->
+	<form>
+	<label for="FullName">Full Name:</label>
+		<input name="FullName" type="text" required="required" value="Enter your name" id="FullName">
+		<br>
+		
+		<label for="Favweb">Favorite Website:</label>
+		<input name="Favweb" type="url" required="required" id="Favweb">
+		<br>
+		
+		<input type="submit">
+	</form>
+<hr>
+	
+<h2>7) Create a form of your choice</h2>
+	<!--Add the form below-->
+  <form>
+  <label for="f2name">First name:</label>
+  <input name="f2name" type="text" required="required" id="f2name">
+  <br>
+		
+  <label for="mname">Middle name:</label>
+  <input name="mname" type="text" id="mname">
+  <br>
+		
+  <label for="l2name">Last name:</label>
+  <input name="l2name" type="text" required="required" id="l2name">
+  <br>
+		
+  <label for="date2"> Date of Birth:</label>
+  <input name="date2" type="date" required="required" id="date2">
+  <br>
+		<p>What grade are you in?</p>
+   
+  <input type="radio" id="grade1" name="grade_e" value="NINE">
+  <label for="grade1">9th</label>
+  <br>
+		
+  <input type="radio" id="grade2" name="grade_e" value="TEN">
+  <label for="grade2">10th</label>
+  <br>
+		
+  <input type="radio" id="grade3" name="grade_e" value="ELEVEN">
+  <label for="grade3">11th</label>
+  <br>
+		
+  <input type="radio" id="grade4" name="grade_e" value="TWELVE">
+  <label for="grade4">12th</label>
+  <br>
+		
+  <p> What language(s) do you speak?</p>
+  <p> Select more than one if multiple.</p>
+  <input type="checkbox" id="language" name="language" value="English">
+  <label for="language"> English</label>
+  <br>
+	
+  <input type="checkbox" id="language2" name="language2" value="Spanish">
+  <label for="language2"> Spanish</label>
+  <br>
+	
+  <input type="checkbox" id="language3" name="language3" value="Arabic">
+  <label for="language3"> Arabic</label>
+  <br>
+		
+  <input type="checkbox" id="language4" name="language4" value="French">
+  <label for="language4"> French</label>
+  <br>	
+		
+  <input type="checkbox" id="other" name="other" value="Other">
+  <label for="other"> Other</label>
+  <br>
+		
+  <label for="other2">Enter here if other:</label>
+  <input name="other2" type="text" value="Type here" id="other2">
+  <br>
+  <br>
+  <button>Submit</button>	
+  </form>
+	
+</body>
+</html>
