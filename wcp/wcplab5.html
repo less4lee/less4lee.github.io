@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+	<style>
+a{
+	padding:10px;
+ }
+	
+body{
+    background-color: lightskyblue;
+    color: royalblue;
+	}
+		
+h1{
+    text-align: center;
+  }
+		
+img{
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+	</style>
+</head>
+
+<body>
+	<h1> Sign-up For A Fashion Class </h1>
+	<img src="../fashion.jpeg" width="300" height="250" alt=""/>
+<form action="https://handlers.education.launchcode.org/request-parrot" method="POST">
+  <h2> Personal Information</h2>
+		
+  <label for="firstname"> First Name</label>
+	<input name="firstname" type="text" required="required" id="firstname">
+		<br>
+		
+  <label for="lastname"> Last Name</label>
+	<input name="lastname" type="text" required="required" id="lastname">
+		<br>
+		
+  <label for="user"> Username</label>
+	<input name="user" type="text" required="required" id="username" pattern="[A-Za-z]{6,10}">
+		<br>
+		
+  <label for="password"> Password </label>
+  <input name="password" type="password" required="required" pattern="[0-9A-Za-z]{6,10}">
+		<br>
+		
+  <label for="dob"> Date of Birth</label>
+  <input name="dob" type="date" required="required">
+		<br>
+	
+  <label for="phone"> Phone Number</label>
+  <input name="phone" type="tel" required="required">
+		<br>
+		
+	<label for="email"> Email Address</label>
+	<input name="email" type="email" required="required">
+		<br>	
+		
+	<label for="url"> Personal Website</label>
+  <input name="url" type="url">
+		<br>
+		
+		<h2> About Yourself</h2>
+		<p> What's your favorite fashion era? </p>
+		<input name="70's" type="checkbox">
+  <label for="70's"> 70's</label>
+		<br>
+		<input name="80's" type="checkbox">
+		<label for="80's"> 80's</label>
+		<br>
+		<input name="90's" type="checkbox">
+		<label for="90's"> 90's</label>
+		<br>
+		<input name="2K" type="checkbox">
+		<label for="2K"> 2000's</label>
+		<br>
+		
+		<p> Where did you hear about this webiste?</p>
+  <input name="online" type="radio">
+  <label for="online"> Social Media</label>
+		<br>
+  <input name="fof" type="radio">
+  <label for="fof"> Friend or Family</label>
+		<br>
+  <input name="tr" type="radio">
+  <label for="tr"> Television or Radio</label>
+		<br>
+		<input name="other" type="radio">
+		<label for="other"> Other</label>
+		<br>
+	<br>
+	<input type="submit"> <input type="reset"> 
+
+</form>
+</body>
+</html>
